@@ -96,7 +96,7 @@ pod 'FPTextKit'
 
 ## Author
 
-fakepinge@gmail.com, fakepinge@gmail.com
+fakepinge, fakepinge@gmail.com
 
 ## License
 
