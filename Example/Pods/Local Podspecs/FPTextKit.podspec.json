@@ -1,0 +1,22 @@
+{
+  "name": "FPTextKit",
+  "version": "0.1.0",
+  "summary": "A short description of FPTextKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fakepinge@gmail.com/FPTextKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fakepinge@gmail.com": "fakepinge@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fakepinge@gmail.com/FPTextKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FPTextKit/Classes/**/*"
+}

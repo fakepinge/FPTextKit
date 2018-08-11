@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FPTextKit_Example' do
+  pod 'FPTextKit', :path => '../'
+
+  target 'FPTextKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
