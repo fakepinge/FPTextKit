@@ -84,6 +84,9 @@
         _textFiled.center = CGPointMake(self.view.center.x, _textFiled.center.y);
         _textFiled.textColor = [UIColor blackColor];
         _textFiled.placeholder = @"textField测试输入限制";
+        [_textFiled setTextDidChangeBlock:^(FPTextField *textFiled) {
+            NSLog(@"%@", textFiled.text);
+        }];
     }
     return _textFiled;
 }
@@ -97,6 +100,9 @@
         _textView.textColor = [UIColor blackColor];
         _textView.placeholderText = @"textView测试输入限制";
         _textView.placeholderTextColor = [UIColor purpleColor];
+        [_textFiled setTextDidChangeBlock:^(FPTextField *textView) {
+            NSLog(@"%@", textView.text);
+        }];
     }
     return _textView;
 }

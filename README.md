@@ -73,6 +73,16 @@ textView.limitedType = FPLimitedTextTypeCustom;
 textView.limitedRegEx = FPInputLimitedTextIntRegex;
 ```
 
+### 输入变化的监听
+```objc
+textFiled.textDidChangeBlock = ^(FPTextField *textField) {
+    NSLog(@"%@", textField.text);
+};
+textView.textDidChangeBlock = ^(FPTextView *textView) {
+    NSLog(@"%@", textView.text);
+};
+```
+
 ## Requirements
 
 ## Installation
