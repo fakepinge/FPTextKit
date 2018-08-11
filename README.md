@@ -73,8 +73,6 @@ textView.limitedType = FPLimitedTextTypeCustom;
 textView.limitedRegEx = FPInputLimitedTextIntRegex;
 ```
 
-==============
-
 ## Requirements
 
 ## Installation
