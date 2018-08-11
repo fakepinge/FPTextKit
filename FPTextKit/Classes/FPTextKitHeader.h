@@ -13,5 +13,7 @@
 
 #import "FPMatchConst.h"
 #import "FPMatchManager.h"
+#import "FPTextField.h"
+#import "FPTextView.h"
 
 #endif /* InputHeader_h */

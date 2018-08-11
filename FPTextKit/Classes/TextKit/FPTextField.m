@@ -6,11 +6,6 @@
  # Corporation : fakepinge
  # Description :
  输入限制的TextField
- -------------------------------------------------------------------------------
- # Date        : <#Change Date#>
- # Author      : <#Change Author#>
- # Notes       :
- <#Change Logs#>
  ******************************************************************************/
 
 #import "FPTextField.h"

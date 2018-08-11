@@ -220,8 +220,8 @@
 		B8C70DF3211E87FF00377DA4 /* FPTextKit */ = {
 			isa = PBXGroup;
 			children = (
-				B8C70DF4211E87FF00377DA4 /* Classes */,
 				B8C70E03211E87FF00377DA4 /* Assets */,
+				B8C70DF4211E87FF00377DA4 /* Classes */,
 			);
 			name = FPTextKit;
 			path = ../../FPTextKit;
@@ -230,10 +230,10 @@
 		B8C70DF4211E87FF00377DA4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B8C70DF5211E87FF00377DA4 /* Match */,
 				B8C70DFA211E87FF00377DA4 /* FPTextKitHeader.h */,
-				B8C70DFB211E87FF00377DA4 /* .gitkeep */,
+				B8C70DF5211E87FF00377DA4 /* Match */,
 				B8C70DFC211E87FF00377DA4 /* TextKit */,
+				B8C70DFB211E87FF00377DA4 /* .gitkeep */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -241,9 +241,9 @@
 		B8C70DF5211E87FF00377DA4 /* Match */ = {
 			isa = PBXGroup;
 			children = (
+				B8C70DF8211E87FF00377DA4 /* FPMatchConst.h */,
 				B8C70DF6211E87FF00377DA4 /* FPMatchConst.m */,
 				B8C70DF7211E87FF00377DA4 /* FPMatchManager.h */,
-				B8C70DF8211E87FF00377DA4 /* FPMatchConst.h */,
 				B8C70DF9211E87FF00377DA4 /* FPMatchManager.m */,
 			);
 			path = Match;
@@ -252,11 +252,11 @@
 		B8C70DFC211E87FF00377DA4 /* TextKit */ = {
 			isa = PBXGroup;
 			children = (
-				B8C70DFD211E87FF00377DA4 /* FPTextView.m */,
 				B8C70DFE211E87FF00377DA4 /* FPTextField.h */,
-				B8C70DFF211E87FF00377DA4 /* UITextView+FP_PlaceHolder.m */,
 				B8C70E00211E87FF00377DA4 /* FPTextField.m */,
 				B8C70E01211E87FF00377DA4 /* FPTextView.h */,
+				B8C70DFD211E87FF00377DA4 /* FPTextView.m */,
+				B8C70DFF211E87FF00377DA4 /* UITextView+FP_PlaceHolder.m */,
 				B8C70E02211E87FF00377DA4 /* UITextView+FP_PlaceHolder.h */,
 			);
 			path = TextKit;
