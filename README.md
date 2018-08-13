@@ -9,6 +9,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Introduce
+
+这是继承于UITextField和UITextView的输入控件，针对输入做的封装，当前控件默认不能输入表情，对控件做的输入限制，使用起来非常方便，可以限制长度，也可以自定制正则表达式来限制，该库也提供了一些常用正则的表达式！
+
 Usage
 ==============
 
